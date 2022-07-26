@@ -1,0 +1,173 @@
+/* form */
+
+.orderForm {
+    width: 270px;
+    padding: 33px 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 5px solid #e1effb;
+    margin:15px  auto; 
+  }
+  
+  .form__desc {
+    font-size: 18px;
+    line-height: 1.11;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .form__desc_orange {
+    color: #e86f25;
+  }
+  
+  .form__second-desc {
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    line-height: 1.16;
+  }
+  
+  .form__second-desc .lastpack-custom {
+    font-weight: 700;
+  }
+  
+  .default-input {
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .default-input:before {
+    content: '';
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 23px;
+  }
+  
+  .default-input_phone:before {
+    background: url("../images/phone-icon.svg")/*tpa=http://evrhst-a.akamaihd.net/7892/images/phone-icon.svg*/ center no-repeat;
+  }
+  
+  .default-input_name:before {
+    background: url("../images/user-icon.svg")/*tpa=http://evrhst-a.akamaihd.net/7892/images/user-icon.svg*/ center no-repeat;
+  }
+  
+  .default-input__input {
+    border: none;
+    -webkit-border-radius: 32px;
+    border-radius: 32px;
+    -webkit-box-shadow: inset 0px 2px 7px 0 rgba(0, 0, 0, 0.04);
+    box-shadow: inset 0px 2px 7px 0 rgba(0, 0, 0, 0.04);
+    background: #f5f9fe;
+    color: #666;
+    line-height: 1.13;
+    padding: 23px 20px 23px 57px;
+    font-size: 17px;
+    width: 100%;
+  }
+  
+  .default-input__input_fix-width {
+    width: 260px;
+  }
+  
+  .default-input_big {
+    width: 550px;
+  }
+  
+  .default-input_big .default-input__input {
+    padding-left: 20px;
+    padding-right: 57px;
+  }
+  
+  /* main button */
+  
+  .btn {
+    margin-top: 3px;
+    width: 100%;
+    border: none;
+    
+    box-shadow: inset 0px -5px 0px #d76622, inset 0px -9px 0px -3px rgba(255, 255, 255, 0.27);
+    background: #ff6200;
+    background: -webkit-gradient(left top, right top, color-stop(0%, #ff6200), color-stop(51%, #f5833d), color-stop(100%, #ff6200));
+    background: -webkit-linear-gradient(left, #ff6200 0%, #f5833d 51%, #ff6200 100%);
+    background: -o-linear-gradient(left, #ff6200 0%, #f5833d 51%, #ff6200 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#ff6200), color-stop(51%, #f5833d), to(#ff6200));
+    background: linear-gradient(to right, #ff6200 0%, #f5833d 51%, #ff6200 100%);
+    -webkit-border-radius: 32px;
+    border-radius: 32px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.2;
+    height: 71px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    position: relative;
+    transition: all .3s linear;
+  }
+  
+  .btn:after {
+    content: '';
+    position: absolute;
+    width: 75%;
+    height: 1px;
+    background-color: transparent;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-box-shadow: 0 3px 20px 2px #fbac7d;
+    box-shadow: 0 3px 20px 2px #fbac7d;
+    bottom: 0;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+  }
+  
+  .btn__small {
+    font-size: 17px;
+    display: block;
+    margin-top: -1px;
+  }
+  
+  .btn_pack {
+    display: block;
+    width: 270px;
+    z-index: 1;
+    position: absolute;
+   bottom: -46px;
+      left: 0px;
+    right: 0;
+    margin: auto;
+  }
+  
+  .btn_review {
+    position: absolute;
+    width: 300px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -40px;
+    font-size: 26px;
+  }
+  
+  .btn:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#fb3715), color-stop(51%, #f5713d), to(#fb3715));
+    background: -webkit-linear-gradient(left, #fb3715 0%, #f5713d 51%, #fb3715 100%);
+    background: -o-linear-gradient(left, #fb3715 0%, #f5713d 51%, #fb3715 100%);
+    background: linear-gradient(to right, #fb3715 0%, #f5713d 51%, #fb3715 100%);
+    transition: all .3s linear;
+  }
+  
+  
+  .btn:hover:after {
+    box-shadow: none;
+  }
